@@ -14,7 +14,9 @@
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:id="@+id/tabs"
-         android:background="@color/purple_200"
+         android:background="@drawable/white_grey_border_tabs">
+
+     </com.google.android.material.tabs.TabLayout>
 
 
    </com.google.android.material.appbar.AppBarLayout>

@@ -16,6 +16,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/reliLayout1">
 
+        <include
+            layout="@layout/layout_top_tabs"/>
+
     </RelativeLayout>
 
     <!--Middle section -->
@@ -24,6 +27,11 @@
         android:layout_height="match_parent"
         android:id="@+id/reliLayout2"
         android:layout_below="@id/reliLayout1">
+
+        <include
+            layout="@layout/layout_center_viewpager">
+
+        </include>
 
     </RelativeLayout>
 
